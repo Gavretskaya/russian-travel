@@ -1,0 +1,12 @@
+.lead__image {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+ 
+  margin: 0 auto;
+
+  box-sizing: border-box;
+  
+}
+
