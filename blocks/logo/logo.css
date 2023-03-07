@@ -3,7 +3,8 @@
   width: 176px;
   background-image: url(../../../images/header-logo.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  z-index: 1;
 }
 
 
