@@ -1,8 +1,12 @@
 .cover {
   max-width: 1184px;
   width: 100%;
-  margin: 12px auto 92px auto;
+  margin: 0 auto 92px auto;
   position: relative;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -21,7 +25,7 @@
 
 @media (max-width: 767px) {
   .cover {
-    min-height: 320px;
+    min-height: 200px;
     margin-bottom: 64px;
   }
 }

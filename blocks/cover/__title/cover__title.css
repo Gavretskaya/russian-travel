@@ -1,11 +1,10 @@
 .cover__title {
-  width: 560px;
+  max-width: 560px;
+  width: 100%;
 
-  
-  margin: 0 auto;
+  margin: 0 auto 32px auto;
   position: relative;
 
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -38,6 +37,7 @@
     font-size: 32px;
     line-height: 35px;
     width: calc(100% - 2*16px);
+    margin-bottom: 16px;
   }
 }
 
